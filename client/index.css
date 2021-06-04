@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.slide-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto 20px;
+    grid-gap: 20px;
+    padding: 10px;
+    height: 100px;
+  }
+  .image {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
